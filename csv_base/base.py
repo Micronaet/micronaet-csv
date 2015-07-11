@@ -22,10 +22,9 @@ import sys
 import logging
 import netsvc
 import decimal_precision as dp
-import tools
 from osv import fields, osv, expression, orm
 from datetime import datetime, timedelta
-from translate import _
+from tools.translate import _
 from tools import (DEFAULT_SERVER_DATE_FORMAT, 
     DEFAULT_SERVER_DATETIME_FORMAT, 
     DATETIME_FORMATS_MAP, 

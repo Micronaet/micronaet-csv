@@ -21,6 +21,9 @@
     'name': 'CSV base importation',
     'version': '0.1',
     'category': 'ETL/csv',
+    'description': '''
+        CSV base utility for import accounting object using CSV files 
+        ''',
     'author': 'Micronaet S.r.l. - Nicola Riolini',
     'website': 'http://www.micronaet.it',
     'license': 'AGPL-3',

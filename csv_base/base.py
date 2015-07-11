@@ -38,7 +38,7 @@ from openerp.tools import (DEFAULT_SERVER_DATE_FORMAT,
 
 _logger = logging.getLogger(__name__)
 
-class CsvBase(osv.osv):
+class csv_base(osv.osv):
     ''' Add common function without fields/table
     '''
     _name = 'csv.base'
@@ -107,4 +107,5 @@ class CsvBase(osv.osv):
            except:
                pass # next line:    
         return False   # for empty values
+csv_base()        
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
